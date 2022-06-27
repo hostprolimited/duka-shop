@@ -73,8 +73,8 @@
                             <img style="max-width: 80%" src="assets/img/mpesalogo.png" alt="mpesa logo">
                         </div>
                         <div class="form-group col-sm-7 mb-4">
-                            <label for="phone">Enter phone to Pay</label>
-                            <input type="number" id="phone" class="form-control">
+                            <label for="phone">Enter phone to Pay starting with 254...</label>
+                            <input type="number" id="phone" placeholder= "25471234568"class="form-control">
                             <div id="phoneErr"></div>
                         </div>
                         <button id="paynow" type="button" class="btn btn-lg btn-success">Pay Now</button>
